@@ -10,7 +10,7 @@ describe("test automation", () => {
     registerObj.enterLastName(registerData.lastName);
     registerObj.enterEmail(registerData.email);
     registerObj.enterTelephone(registerData.telephone);
-    registerObj.enterPassword(registerData.password);
+    regiclssterObj.enterPassword(registerData.password);
     registerObj.selectCheckBox();
     registerObj.clickOnContinue();
   });
